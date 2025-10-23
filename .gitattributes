@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+
+# Unity and VS config files
+*.vsconfig text eol=lf
+*.json text eol=lf
+*.cs text eol=lf
+*.meta text eol=lf
